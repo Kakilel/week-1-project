@@ -4,10 +4,14 @@
 }
 .main{
     width: 100%;
-    background-image: url(pics/marble.png);
-    background-position: center;
+    background-image: url(pics/marble3.jpg);
+    background-attachment: local; 
+    background-position: inherit;
+    height: 10vh;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height: 120vh;
+   
     position: relative;
     font-family: sans-serif;
 }
@@ -34,13 +38,15 @@ ul li {
 }
 ul li a {
     text-decoration: none;
-    color:grey; 
+    color: rgba(3, 69, 13, 0.742);
     font-size: 18px;
     font-weight: bold; 
     margin-top: -3%;
 }
 ul li a:hover {
     color: chocolate;
+    transition: all .4s ease;
+
 }
 .info{
     margin-top:6%;
@@ -70,6 +76,8 @@ ul li a:hover {
 .info a:hover {
     background-color: black;
 }
+
+
 .image{
     width: 16%;
     height: 60vh;
@@ -92,14 +100,48 @@ ul li a:hover {
     margin-left: 7%;
     color: black;
     margin-right: -60px;
-    margin-bottom: -4%;
+    margin-top: 1%;
     font-size: 30px;
     transition: .4s ease;
+    
 }
-.icons ion-icon:hover{
-    color:rgb(59, 174, 209);
+.icons ion-icon:hover {
+    color: rgb(59, 174, 209);
     transform: scale(1.4);
     text-emphasis: none;
 }
+.p1{
+    width: 86%;
+}
+.info1{
+    margin-top:-2.9%;
+    margin-left: 7%;
+}
+ .footer-about{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 83, 25, 0.459);
+    margin-top: 11.3%;
+ }
+ .footer-index{
+    width: 100%;
+    height: 11.5vh;
+    background-color: rgba(0, 83, 25, 0.459);
+    margin-top:16.6%;
+ }
+ .footer-index p{
+    color: black;
+    font-size: 18px;
+    margin-left: 7%;
+    text-align: center;
+ }
+ 
+
+    
+
+    
+    
+      
+
 
 
