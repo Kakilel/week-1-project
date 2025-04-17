@@ -88,3 +88,18 @@ ul li a:hover {
 .image:hover .image1{
     left: 55%;
 }
+.icons ion-icon{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    margin-bottom: -4%;
+    font-size: 30px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color:rgb(59, 174, 209);
+    transform: scale(1.4);
+    text-emphasis: none;
+}
+
+
