@@ -140,14 +140,41 @@ ul li a:hover {
     text-align: center;
     margin-top: -2%;
 }
-.foooter-hireme{
-
+.footer-hireme{
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 83, 25, 0.459);
+  margin-top: 1.55%;
+}
+.footer-hireme p {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 7%;
+  text-align: center;
+  margin-top: -2%;
+}
+.info3 {
+  margin-top: -2%;
+  margin-left: 7%;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 78%;
+}
+.info3 p {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 7%;
 }
 .info4{
   margin-top: -2%;
   margin-left: 7%;
-  max-width: fit-content;
+  max-width: 78%;
 } 
+
 .info4 ul li{
   display:flex;
   flex-direction: row;
