@@ -76,8 +76,6 @@ ul li a:hover {
   background-color: black;
 }
 
-
-
 .icons ion-icon {
   margin-left: 7%;
   color: black;
@@ -126,21 +124,21 @@ ul li a:hover {
   text-align: center;
   margin-top: -2%;
 }
-.footer-skills{
-    width: 100%;
-    height: 10vh;
-    background-color: rgba(0, 83, 25, 0.459);
-    margin-top: 0.7%;  
+.footer-skills {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 83, 25, 0.459);
+  margin-top: 0.7%;
 }
 .footer-skills p {
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: 7%;
-    text-align: center;
-    margin-top: -2%;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 7%;
+  text-align: center;
+  margin-top: -2%;
 }
-.footer-hireme{
+.footer-hireme {
   width: 100%;
   height: 10vh;
   background-color: rgba(0, 83, 25, 0.459);
@@ -169,24 +167,23 @@ ul li a:hover {
   font-weight: bold;
   margin-left: 7%;
 }
-.info4{
+.info4 {
   margin-top: -2%;
   margin-left: 7%;
   max-width: 78%;
-} 
+}
 
-.info4 ul li{
-  display:flex;
+.info4 ul li {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 86%;
   text-align: left;
- 
+
   color: chocolate;
   font-weight: bold;
   font-size: medium;
-  
-}  
+}
 .info1 .p1 a span {
   color: chocolate;
   font-weight: bold;
